@@ -1,4 +1,4 @@
-const API_URL = 'http://apis.is/isnic?domain=';
+const API_URL = 'https://apis.is/isnic?domain=';
 // const API_URL = '/example.json?number=';
 
 
