@@ -4,13 +4,18 @@
   "description": "verkefni 9",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "eslint *.js **/*.js",
     "dev": "browser-sync start --server --files index.html styles.css scripts.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
-  }
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "stylelint": "^9.8.0"
+  },
+  "dependencies": {}
 }
